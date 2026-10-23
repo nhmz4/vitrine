@@ -1,0 +1,6 @@
+- uses: nhmz4/github-actions/.github/actions/checkout@v1
+- uses: nhmz4/github-actions/.github/actions/hide-sensitive-inputs@v1
+- uses: nhmz4/github-actions/.github/actions/setup-xcode@v1
+  with:
+    xcode-version: latest-stable
+- uses: nhmz4/github-actions/.github/actions/upload-artifact@v1
